@@ -14,7 +14,7 @@ TEST_ITEM = {
     "created_at": "2023-02-20T00:00:00",
     "updated_at": "2023-02-20T00:00:00"
 }
- 
+
 @api.route('/health') 
 def health():
     """Return a status of 'ok' if the server is running and listening to request"""
